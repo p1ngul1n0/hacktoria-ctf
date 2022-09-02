@@ -25,21 +25,21 @@ As always. Special Agent K, the contract is yours, if you choose to accept.
 #### Step 1
 As we have a HEX Code, the first thing you would think is to decode it to ASCII, so let's do it using  [CyberChef](https://gchq.github.io/CyberChef/).
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/p1ngul1n0/tiberian-order-contracts/blob/main/easy/Dialogues%20from%20Atlantis/step1.png)
 
 And we ain't got nothing really readable 😟
 
 #### Step 2
 But let's not give up right away, we can begin trying out with the most basic Cryptography algorithms, like ROT.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/p1ngul1n0/tiberian-order-contracts/blob/main/easy/Dialogues%20from%20Atlantis/step2.png)
 
 Using ROT 47 you will notice a `==` in the end of the decoded string `QgdGhpbmdzLg==`.
 
 #### Step 3
 If you have already encoded anything with `Base64` you know that it's a standard for encoded strings to have `==` at the end, so let's decode it.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/p1ngul1n0/tiberian-order-contracts/blob/main/easy/Dialogues%20from%20Atlantis/step3.png)
 
 Now we have a readable text 😀
 
@@ -48,24 +48,21 @@ But we ain't having any Flag in our hands yet, we need to find the flag hidden i
 
 If you copy the text and paste in any text editor, you will notice that its all in one line, let's organize to each phrase be in one line, to do that we will use Notepad++ substitute feature to overwrite `\.` with `\n`.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/p1ngul1n0/tiberian-order-contracts/blob/main/easy/Dialogues%20from%20Atlantis/step4.png)
 
 Now the text should be correct.
 
 #### Step 5
 Observing the first Words of each phrase you can see that some don't make sense, identifying the word `bit` with `ly` right after it, could be this a bitly link? 🤯
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/p1ngul1n0/tiberian-order-contracts/blob/main/easy/Dialogues%20from%20Atlantis/step5.png)
 
 #### Step 6
 Assuming that this is a bitly link, let's search for a ID to build a valid URL.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/p1ngul1n0/tiberian-order-contracts/blob/main/easy/Dialogues%20from%20Atlantis/step6.png)
 
 Now we can build a valid Bitly URL
 `https://bit.ly/3pB2oiW`
 
 And Voilà here is the flag 🏴 
-
-
-
