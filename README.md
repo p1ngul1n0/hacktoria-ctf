@@ -164,7 +164,7 @@ Find the password to open the Linkfile, wherever or whatever that might be.
 #### Step 1 📹
 We have a chilling video 😬, a girl in a white dress crossing the hall in the dark
 
-The video don't have any audio and upon watching it, we can't see any readable text, but we can see it metadata ☺️.
+The video don't have any audio and upon watching it, we can't see any readable text, but we can see its metadata ☺️.
 
 Using Metadata2go we can upload it and view all metadata.
 
