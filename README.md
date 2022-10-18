@@ -180,3 +180,56 @@ Scrolling down the results, we can see that there is a comment in the metadata, 
 And with that we can unlock the ZIP file, open the TXT file in it and obtain the URL to the FLAG:
 
 `https://bit.ly/3fYWbvM`
+
+## The Butcher [EASY]
+
+### Description
+Greetings, Special Agent K. As you might have heard in the news over the past few months. The city of Berlin in Germany is being plagued by a serial killer, nicknamed “The Butcher”.
+
+As the name implies, this individual butchers his victims and disposes their body parts all over the city. Autopsy reports conclude that the weapon for disposal is most likely a meat cleaver.
+
+The total body count currently sits at 18 people, mostly women and younger men. All victims were traveling alone at night, mostly through quiet areas, when they were last seen.
+
+Fortunately, yesterday the German police raided an apartment in the city center of Berlin. Neighbors had complained about a stale, metal like smell coming from the apartment. Upon closer inspection, the police found large quantities of plastic sheets, blood traces of several victims and an assortment of meat cleavers.
+
+Since the apartment was rented out to an individual who had used a fake ID, the police has hit a dead end in trying to find the killer. They did however retrieve several files from a personal laptop, including a large, encrypted archive.
+
+In the same location as the archive was stored, a file named “password” was found. However, this just contained a bunch of HEX values. We need you to make sense of this file, perhaps it leads to the password for the archive.
+
+As always, Special Agent K. The contract is yours, if you choose to accept.
+
+Find the password, for this contract, there is no password sample.
+
+### Password File
+![Password File](https://hacktoria.com/wp-content/contracts/items/password-the-butcher)
+
+### ZIP Locked File
+![linkfile-the-butcher.zip](https://hacktoria.com/wp-content/contracts/items/linkfile-the-butcher.zip)
+
+### Solution 💡
+
+#### Step 1 🔪
+The Password File has HEX code in it, so let's use CyberChef, our ally when dealing with decode and encoding.
+
+![alt text](https://github.com/p1ngul1n0/tiberian-order-contracts/blob/main/easy/The%20Butcher/step1.png)
+
+And we get something that looks like a file raw content.
+
+#### Step 2 🪄
+Using the CyberChef magicwand, we can identify that it's a MP3 file.
+
+![alt text](https://github.com/p1ngul1n0/tiberian-order-contracts/blob/main/easy/The%20Butcher/step2.png)
+
+#### Step 3 📥
+Now last download the result file.
+
+![alt text](https://github.com/p1ngul1n0/tiberian-order-contracts/blob/main/easy/The%20Butcher/step3.png)
+
+#### Step 4 🔑
+Listening to the audio, we can identify the password letters, these are:
+
+`fgjkaergnadrmgkhngadrgle`
+
+And with that we can unlock the ZIP file, open the TXT file in it and obtain the URL to the FLAG:
+
+`https://bit.ly/3EyudkI`
