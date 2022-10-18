@@ -1,6 +1,6 @@
-# Tiberian Order Contracts Write-ups
+# Hacktoria CTF Write-ups
 
-Here i list the solution of all **Tiberian Order Contracts** i completed.
+Here i list the solution of all **Hacktoria CTF** i completed.
 
 ## Dialogues from Atlantis [EASY]
 
